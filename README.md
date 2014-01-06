@@ -4,7 +4,7 @@ QE-doc
 Docs and examples for Quantum-Espresso environment inside iPython notebooks.
 
 Installation
-============
+------------
 
 The use of the qe-util/nipy packages require some preparations to be made first.
 You need to install and configure several packages first. 
