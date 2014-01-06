@@ -1,5 +1,13 @@
 *.py[cod]
 
+# Local things - output from calculations
+*.png
+*.pdf
+*.dat
+ThO2.*
+pspot
+qeu
+
 # C extensions
 *.so
 
