@@ -6,8 +6,8 @@ the [qe-util](https://github.com/jochym/Elastic) and [elastic](https://github.co
 packages developed by Paweł T. Jochym in part during his stay 
 at the University of Saskachwan, Canada with the joint support of:
 
-* Department of Engeenering and Department of Physics of USASK 
-* Department of Computational Material Science of the Institute of Nuclear Physics, PAN, Poland. 
+* Department of Engeenering and Department of Physics of University of Saskachewan, Saskatoon, Canada
+* Department of Computational Material Science of the Institute of Nuclear Physics, PAN, Cracow, Poland. 
 
 The docs and examples in the form of a series of [iPython](http://www.ipython.org/) notebooks
 are vieweble and downloadeble from the nbviewer links below. The support files are stored in 
