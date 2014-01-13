@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Install
+git pull https://gist.github.com/a7f552e8b1fced1bc996.git
+
+# Crystall structure
+git pull https://gist.github.com/603c0d13bc7d3dc8148d.git
+
+# Remote execution
+git pull https://gist.github.com/d504ce067b99686e4ae8.git
+
+# Elastic constants
+git pull https://gist.github.com/5fb472070a272b61f75c.git
+
+# Primitive unit cell
+git pull https://gist.github.com/d68d81026eed03467d69.git
+
+# Lattice dynamics
+git pull https://gist.github.com/f3f37daa4cf1884f02ad.git
+
