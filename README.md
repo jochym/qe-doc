@@ -22,7 +22,7 @@ No advanced knowledge of python is required for understanding the tutorials and 
 pick up the knowledge quickly when you start to exoperiment.
 
 You will also need to understand at least the basics of the 
-[Quantum Espresso](http://www.quantumespresso.org) package as well as the [ASE](https://wiki.fysik.dtu.dk/ase/) system. 
+[Quantum Espresso](http://www.quantumespresso.org) package ([Tutorials prepared by the Q-E group](http://www.fisica.uniud.it/~giannozz/QE-Tutorial/)) as well as the [ASE](https://wiki.fysik.dtu.dk/ase/) system. 
 Finally, of course you will need understand the physics behind it all.
 
 You should start with the configuration of your working environment. 
