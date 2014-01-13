@@ -1,115 +1,51 @@
 QE-doc
 ======
 
-Docs and examples for Quantum-Espresso environment inside iPython notebooks.
+Docs and examples for Quantum-Espresso environment inside iPython notebooks acompanying 
+the [qe-util](https://github.com/jochym/Elastic) and [elastic](https://github.com/jochym/Elastic) 
+packages developed by Paweł T. Jochym in part during his stay 
+at the University of Saskachwan, Canada with the joint support of:
 
-Installation
-------------
+* Department of Engeenering and Department of Physics of USASK 
+* Department of Computational Material Science of the Institute of Nuclear Physics, PAN, Poland. 
 
-The use of the qe-util/nipy packages require some preparations to be made first.
-You need to install and configure several packages first. 
-The operation is fairly simple and contains just a few steps.
+The docs and examples in the form of a series of [iPython](http://www.ipython.org/) notebooks
+are vieweble and downloadeble from the nbviewer links below. The support files are stored in 
+this repository and can be cloned or directly downloded as 
+a [zip archive](https://github.com/jochym/qe-doc/archive/master.zip).
 
-Pre-requisites
---------------
+Obviously, to get some use from these tutorials and to further use the software in 
+the `qe-util` and `elastic` packages you need to have at least cursory knowledge of the 
+[python](http://www.python.org) language and iPython notebook environment. 
+Go ahead and go to the iPython website to teach yourself - if you need to. 
+No advanced knowledge of python is required for understanding the tutorials and you will
+pick up the knowledge quickly when you start to exoperiment.
 
-To run the programs you need a fairly recent linux system. 
-Any decent and modern linux distribution will do but the code was developed and
-tested on Ubuntu 13.10/64.
+You will also need to understand at least the basics of the 
+[Quantum Espresso](http://www.quantumespresso.org) package as well as the [ASE](https://wiki.fysik.dtu.dk/ase/) system. 
+Finally, of course you will need understand the physics behind it all.
 
-You will need the current python install with virtualenv system installed.
+You should start with the configuration of your working environment. 
+The [Installation](http://nbviewer.ipython.org/gist/jochym/a7f552e8b1fced1bc996) document will help with this task.
+Do not be scared by the multiple steps in the procedure. Al should work quite smoothly and at the end you will have an environment usefull not only for viewing and exprerimenting with the tutorials but suitable for the day-to-day research work (it is actually a slimmed down and cleaned up version of my working environment).
 
-The installation instructions for the virtualenv package can be found on 
-its web page: http://www.virtualenv.org/
+Then preceed to the tutorials - view them from the links below and then download them (the download link is in the upper right corner of each tutorial page) and play with them - this is the fastest way to get a grip on the software.
 
-Your system should also have a basic set of development packages installed:
+**Note:** The software is under active development, so do expect some changes in the api from time to time.
 
- - gcc
- - g++
- - development libraries
+Tutorials
+---------
 
-Installation
-------------
+Here is the list of tutorials. It will probably grow in time a little. If you wish to include your tutorial in the list I will be happy to add any material which concerned with similar tasks.
 
-It is best to perform all your work in the python virtualenv. 
-To create one go to the directory of your choice and run 
-(nipy is a name of the environment we have chosen, you can use a different 
-name, just stick with it):
+* [Crystal structure](http://nbviewer.ipython.org/gist/jochym/603c0d13bc7d3dc8148d) - introduces the basic ideas of the system and presents a set of basic static calculations.
+* [Remote execution](http://nbviewer.ipython.org/gist/jochym/d504ce067b99686e4ae8) - shows how to set-up the remote execution of the Qeuantum Espresso over the network (e.g. in some supercomputing center).
+* [Elastic constants](http://nbviewer.ipython.org/gist/jochym/5fb472070a272b61f75c) - introduces the `elastic` package and shows the calculation of elastic constants using this tool.
+* [Lattice dynamics](http://nbviewer.ipython.org/gist/jochym/f3f37daa4cf1884f02ad) - shows the use of DFPT module in Quantum Espresso for calculation of vibration modes in the crystal as well as use of utility functions in the `qe-util` for easier analysis of the obtained data.
+* [Primitive unit cells](http://nbviewer.ipython.org/gist/jochym/d68d81026eed03467d69) - demonstrates the concept of the primitive unit cell and shows a way the system deals with them.
+* [Structure optimization](http://nbviewer.ipython.org/gist/jochym/) - shows how to find minimum of energy of the system whith more degrees of freedom (low symmetry structures etc.). The example of structure minimization for a simple structure is included in the first tutorial.
+* [Electronic structure calculation](http://nbviewer.ipython.org/gist/jochym/) - shows how to extract the basic properties of the electronic structure of the crystal from the data produced by the calculation.
 
-    virtualenv nipy
-
-This will create the nipy directory which is a place all software will be 
-installed. You *do not need* to work in this directory! In fact it is better 
-not too. If you have a recent and complete distribution and you know what you 
-are doing  you can try to use a --site-packages option to virtualenv and skip 
-the installation of packages already present in your system. Just remember that
-this is not supported and tested variant (but it should work anyway).
-
-Next step is activatiion. Execute in your terminal a following line:
-
-    source nipy/bin/activate
-
-replacing the nipy by your path to the environment directory. This command 
-activates the environment. To deactivate simply run:
-
-    deactivate
-
-Next you need to install the software. Activate the environment and run:
-
-    pip install ipython
-    pip install pyzmq
-    pip install jinja2
-    pip install tornado
-    pip install numpy
-    pip install scipy
-    pip install matplotlib
-
-This will take some time but should execute without problems. 
-
-Next go to the ASE website: https://wiki.fysik.dtu.dk/ase/download.html
-and download a latest tarball. At this moment it is: 
-https://wiki.fysik.dtu.dk/ase-files/python-ase-3.8.1.3440.tar.gz
-
-Unpack it in some temporary place, enter its directory and run:
-
-    python setup.py install
-
-The last step is installation of the qe-util package. 
-It is simple, just execute:
-
-    pip install qeutil
-
-Now you have a ready working environment.
-
-Configuration
--------------
-
-The system is configured by default to use a quantum espresso software 
-present and configured locally. The installation of the Q-E software is beyond 
-the scope of this tutorial. The debian and ubuntu distributions provide 
-stable but fairly old versions of this package. It is highly recommended to 
-obtain a recent version or, better still, to use one installed in some HPTC 
-centre. The example of such remote configuration is provided in the examples.
-
-Essentially you need to figure out how to transport files from your 
-workstation to the computing machine and how to run jobs there. 
-One very comfortable way of doing this is mounting the remote directory 
-locally using sshfs and setting up the key-authentication execution over ssh
-to the computing machine. Such a setup makes the "remoteness" of the 
-calculations almost transparent.
-
-Usage
------
-
-Since the qe-util package is designed to be used inside the iPython notebook
-environment go to the directory where you downloaded the example notebooks 
-(*.ipynb files - it should be *outside* of the nipy tree) and run (remember 
-to have the nipy environment activated!) :
-
-    ipython notebook --pylab=inline
-
-Your web browser will open a page with a list of example notebooks. 
-Open (click) the first and follow the instructions there.
 
 
 
