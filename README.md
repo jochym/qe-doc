@@ -1,9 +1,10 @@
 QE-doc
 ======
 
-Docs and examples for Quantum-Espresso environment inside iPython notebooks acompanying 
+QE-Doc is a set of examples for Quantum-Espresso environment inside iPython notebooks. 
+It is connected with
 the [qe-util](https://github.com/jochym/Elastic) and [elastic](https://github.com/jochym/Elastic) 
-packages developed by Paweł T. Jochym in part during his stay 
+packages developed by Paweł T. Jochym. Part of the development was done during my stay 
 at the University of Saskachwan, Canada with the joint support of:
 
 * Department of Engeenering and Department of Physics of University of Saskachewan, Saskatoon, Canada
