@@ -22,12 +22,14 @@ can be cloned or directly downloaded as a
 [zip archive](https://github.com/jochym/qe-doc/archive/master.zip).
 
 Obviously, to get any use from these tutorials and to further use the software
-in the `qe-util` and `elastic` packages you need to have at least cursory
+in the QE-util and Elastic packages you need to have at least cursory
 knowledge of the [python](http://www.python.org) language and iPython notebook
 environment. Go ahead and to the iPython website to teach yourself - if you need
-to. **But:** no advanced knowledge of python is required for understanding the
+to. 
+
+**But:** *no advanced knowledge of python is required for understanding the
 tutorials and you will pick up the required skills quickly when you start to
-experiment with the materials.
+experiment with the materials.*
 
 You will also need to understand at least the basics of the 
 [Quantum Espresso](http://www.quantumespresso.org) package. There is a large
@@ -39,6 +41,9 @@ on their website at some point in time as well. This may wait until you start
 more serious experimentation. You should understand the tutorials without
 detailed knowledge of the ASE system. Finally, of course you will need
 understand the physics behind it all.
+
+Installation
+------------
 
 You should start with the configuration of your working environment. The
 [Installation](http://nbviewer.ipython.org/gist/jochym/a7f552e8b1fced1bc996)
@@ -76,15 +81,15 @@ which concerned with similar tasks.
     shows how to set-up the remote execution of the Qeuantum Espresso over the
     network (e.g. in some supercomputing center).
 * [Elastic constants](http://nbviewer.ipython.org/gist/jochym/5fb472070a272b61f75c) - 
-    introduces the `elastic` package and shows the calculation of elastic
+    introduces the Elastic package and shows the calculation of elastic
     constants using this tool.
 * [Lattice dynamics](http://nbviewer.ipython.org/gist/jochym/f3f37daa4cf1884f02ad) - 
     shows the use of DFPT module in Quantum Espresso for calculation of
     vibration modes in the crystal as well as use of utility functions in the
-    `qe-util` for easier analysis of the obtained data.
+    QE-util for easier analysis of the obtained data.
 * [Quasi Harmonic Approximation](http://nbviewer.ipython.org/gist/jochym/334b658cc8b3f6864c23) - 
     explains the procedure of calculating temperature-dependent behaviour in the
-    framework of the QHA using the tools provided within the `QE-util` package.
+    framework of the QHA using the tools provided within the QE-util package.
 * [Electronic structure calculation](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - 
     shows how to extract the basic properties of the electronic structure of the
     crystal from the data produced by the calculation (not ready yet).
