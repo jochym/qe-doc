@@ -43,7 +43,7 @@ Here is the list of tutorials. It will probably grow in time a little. If you wi
 * [Elastic constants](http://nbviewer.ipython.org/gist/jochym/5fb472070a272b61f75c) - introduces the `elastic` package and shows the calculation of elastic constants using this tool.
 * [Lattice dynamics](http://nbviewer.ipython.org/gist/jochym/f3f37daa4cf1884f02ad) - shows the use of DFPT module in Quantum Espresso for calculation of vibration modes in the crystal as well as use of utility functions in the `qe-util` for easier analysis of the obtained data.
 * [Primitive unit cells](http://nbviewer.ipython.org/gist/jochym/d68d81026eed03467d69) - demonstrates the concept of the primitive unit cell and shows a way the system deals with them.
-* [Structure optimization](http://nbviewer.ipython.org/gist/jochym/) - shows how to find minimum of energy of the system whith more degrees of freedom (low symmetry structures etc.). The example of structure minimization for a simple structure is included in the first tutorial.
+* [Structure optimization](http://nbviewer.ipython.org/gist/jochym/f7b46f20640f3e2e7634) - shows how to find minimum of energy of the system whith more degrees of freedom (low symmetry structures etc.). The example of structure minimization for a simple structure is included in the first tutorial.
 * [Electronic structure calculation](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - shows how to extract the basic properties of the electronic structure of the crystal from the data produced by the calculation.
 
 
