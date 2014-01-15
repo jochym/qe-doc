@@ -87,7 +87,7 @@ which concerned with similar tasks.
     shows the use of DFPT module in Quantum Espresso for calculation of
     vibration modes in the crystal as well as use of utility functions in the
     QE-util for easier analysis of the obtained data.
-* [Quasi Harmonic Approximation](http://nbviewer.ipython.org/gist/jochym/334b658cc8b3f6864c23) - 
+* [Quasi-Harmonic Approximation](http://nbviewer.ipython.org/gist/jochym/334b658cc8b3f6864c23) - 
     explains the procedure of calculating temperature-dependent behaviour in the
     framework of the QHA using the tools provided within the QE-util package.
 * [Electronic structure calculation](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - 
