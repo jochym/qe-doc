@@ -90,11 +90,6 @@ which concerned with similar tasks.
 * [Quasi-Harmonic Approximation](http://nbviewer.ipython.org/gist/jochym/334b658cc8b3f6864c23) - 
     explains the procedure of calculating temperature-dependent behaviour in the
     framework of the QHA using the tools provided within the QE-util package.
-<!--
-* [Electronic structure calculation](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - 
-    shows how to extract the basic properties of the electronic structure of the
-    crystal from the data produced by the calculation (not ready yet).
--->
 
 
 
