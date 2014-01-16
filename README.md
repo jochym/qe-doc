@@ -45,8 +45,11 @@ understand the physics behind it all.
 Installation
 ------------
 
-You should start with the configuration of your working environment. The
-[Installation](http://nbviewer.ipython.org/gist/jochym/a7f552e8b1fced1bc996)
+You can *view* the tutorials with just your browser (just click the links below),
+but to *work* on them (which is a whole point of having a tutorial!) you need 
+a working environment - so you need to build and configure one.
+
+The [Installation](http://nbviewer.ipython.org/gist/jochym/a7f552e8b1fced1bc996)
 document will help with this task. Do not be scared off by the multiple steps in
 the procedure. All should work quite smoothly, and at the end you will have an
 environment useful not only for viewing and experimenting with the tutorials but
