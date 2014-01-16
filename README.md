@@ -70,6 +70,9 @@ which concerned with similar tasks.
 * [Crystal structure](http://nbviewer.ipython.org/gist/jochym/603c0d13bc7d3dc8148d) -
     introduces the basic ideas of the system and presents a set of basic static
     calculations.
+* [Remote execution](http://nbviewer.ipython.org/gist/jochym/d504ce067b99686e4ae8) - 
+    shows how to set-up the remote execution of the Qeuantum Espresso over the
+    network (e.g. in some supercomputing center).
 * [Primitive unit cells](http://nbviewer.ipython.org/gist/jochym/d68d81026eed03467d69) - 
     demonstrates the concept of the primitive unit cell and shows a way the
     system deals with them.
@@ -77,9 +80,6 @@ which concerned with similar tasks.
     shows how to find minimum of energy of the system with more degrees of
     freedom (low symmetry structures etc.). The example of structure
     minimization for a simple structure is included in the first tutorial.
-* [Remote execution](http://nbviewer.ipython.org/gist/jochym/d504ce067b99686e4ae8) - 
-    shows how to set-up the remote execution of the Qeuantum Espresso over the
-    network (e.g. in some supercomputing center).
 * [Elastic constants](http://nbviewer.ipython.org/gist/jochym/5fb472070a272b61f75c) - 
     introduces the Elastic package and shows the calculation of elastic
     constants using this tool.
@@ -90,10 +90,11 @@ which concerned with similar tasks.
 * [Quasi-Harmonic Approximation](http://nbviewer.ipython.org/gist/jochym/334b658cc8b3f6864c23) - 
     explains the procedure of calculating temperature-dependent behaviour in the
     framework of the QHA using the tools provided within the QE-util package.
+<!--
 * [Electronic structure calculation](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - 
     shows how to extract the basic properties of the electronic structure of the
     crystal from the data produced by the calculation (not ready yet).
-
+-->
 
 
 
