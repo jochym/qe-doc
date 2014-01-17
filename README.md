@@ -1,17 +1,18 @@
 QE-doc
 ======
 
+*This work was supported in part by a grant from the National Sciences and Engineering 
+Research Council of Canada, University of Saskatchewan, and the Department of Computational
+Material Science of the Institute of Nuclear Physics, PAN, Cracow, Poland. 
+The access to high performance supercomputers provided by Compute Canada 
+(CLUMEQ and Westgrid) is acknowledged.*
+
 QE-doc is a set of tutorials for Quantum-Espresso environment inside iPython
 notebooks. It is connected with
 the [QE-util](https://github.com/jochym/qe-util) and 
 [Elastic](https://github.com/jochym/Elastic) 
 packages developed by Paweł T. Jochym. Part of the development was done during
-my stay at the University of Saskachwan, Canada with the joint support of:
-
-* Department of Engeenering and Department of Physics 
-    of the University of Saskachewan, Saskatoon, Canada
-* Department of Computational Material Science 
-    of the Institute of Nuclear Physics, PAN, Cracow, Poland. 
+my stay at the University of Saskachwan.
 
 The docs and examples in the form of a series of
 [iPython](http://www.ipython.org/) notebooks are viewable from the links below.
@@ -56,6 +57,12 @@ environment useful not only for viewing and experimenting with the tutorials but
 suitable for the day-to-day research work (it is actually a slimmed down and
 cleaned up version of my working environment).
 
+Alternatively, we have prepared a [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+image of a fully installed and configured system. Ready to be imported into
+the virtualization software. It is not the most effective way to use the 
+software - but it is definitively the fastest one (it takes 3-5 minutes from 
+downloading the image to opening first tutorial).
+
 Then proceed to the tutorials - view them from the links below, download
 them (the download link is in the upper right corner of the tutorial page) and
 play with them - this is the fastest way to get a grip on the software.
@@ -67,7 +74,7 @@ Tutorials
 ---------
 
 Here is the list of tutorials. It will probably grow in time a little. If you
-wish to include your tutorial in the list I will be happy to add any material
+wish to include your tutorial in the list we will be happy to add any material
 which concerned with similar tasks.
 
 * [Crystal structure](http://nbviewer.ipython.org/gist/jochym/603c0d13bc7d3dc8148d) -
