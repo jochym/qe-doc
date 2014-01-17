@@ -60,10 +60,10 @@ cleaned up version of my working environment).
 Alternatively, we have prepared a [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 image of a 
 [fully installed and configured system](http://wolf.ifj.edu.pl/~jochym/NiPy-VirtualBox-appliance.ova). 
-Ready to be imported into
-the virtualization software. It is not the most effective way to use the 
-software - but it is definitively the fastest one (it takes 3-5 minutes from 
-downloading the image to opening first tutorial).
+Ready to be imported into the virtualization software 
+([README for the image](http://wolf.ifj.edu.pl/~jochym/README-nipy-virtbox.txt)). 
+It is not the most effective way to use the software - but it is definitively 
+the fastest one (it takes 3-5 minutes from downloading the image to opening first tutorial).
 
 Then proceed to the tutorials - view them from the links below, download
 them (the download link is in the upper right corner of the tutorial page) and
