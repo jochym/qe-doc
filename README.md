@@ -59,7 +59,7 @@ cleaned up version of my working environment).
 
 Alternatively, we have prepared a [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 image of a 
-[fully installed and configured system](http://wolf.ifj.edu.pl/jochym/NiPy-VirtualBox-appliance.ova). 
+[fully installed and configured system](http://wolf.ifj.edu.pl/~jochym/NiPy-VirtualBox-appliance.ova). 
 Ready to be imported into
 the virtualization software. It is not the most effective way to use the 
 software - but it is definitively the fastest one (it takes 3-5 minutes from 
