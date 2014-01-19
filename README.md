@@ -8,11 +8,12 @@ The access to high performance supercomputers provided by Compute Canada
 (CLUMEQ and Westgrid) is acknowledged.*
 
 QE-doc is a set of tutorials for Quantum-Espresso environment inside iPython
-notebooks. It is connected with
-the [QE-util](https://github.com/jochym/qe-util) and 
+notebooks developed as a colaborative project between the Institute of Nuclear 
+Physics and the University of Saskachwan. 
+
+It uses the [QE-util](https://github.com/jochym/qe-util) and 
 [Elastic](https://github.com/jochym/Elastic) 
-packages developed by Paweł T. Jochym. Part of the development was done during
-my stay at the University of Saskachwan.
+packages for the [ASE](https://wiki.fysik.dtu.dk/ase/) system.
 
 The docs and examples in the form of a series of
 [iPython](http://www.ipython.org/) notebooks are viewable from the links below.
