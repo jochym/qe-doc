@@ -11,7 +11,7 @@ QE-doc is a set of tutorials for Quantum-Espresso environment inside iPython
 notebooks developed as a colaborative project between the Institute of Nuclear 
 Physics and the University of Saskachwan. 
 
-The tutorial use [QE-util](https://github.com/jochym/qe-util) and 
+The tutorials use [QE-util](https://github.com/jochym/qe-util) and 
 [Elastic](https://github.com/jochym/Elastic) 
 packages for the [ASE](https://wiki.fysik.dtu.dk/ase/) system.
 
