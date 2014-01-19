@@ -58,6 +58,9 @@ environment useful not only for viewing and experimenting with the tutorials but
 suitable for the day-to-day research work (it is actually a slimmed down and
 cleaned up version of my working environment).
 
+The information concerned with local configuration at the University of Saskatchewan
+is included on the [USASK NiPy page](http://homepage.usask.ca/~bas627/nipy/Nipy.htm).
+
 Alternatively, we have prepared a [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 image of a 
 [fully installed and configured system](http://wolf.ifj.edu.pl/~jochym/NiPy-VirtualBox-appliance.ova). 
