@@ -82,7 +82,10 @@ which concerned with similar tasks.
 
 * [Crystal structure](http://nbviewer.ipython.org/gist/jochym/603c0d13bc7d3dc8148d) -
     introduces the basic ideas of the system and presents a set of basic static
-    calculations.
+    calculations. This example uses a local installation of Quantum Espresso. 
+    Without such installation you will not be able to execute this tutorial 
+    However, you can still read it and lern from it. 
+    The rest of the tutorials are configured for remote execution.
 * [Remote execution](http://nbviewer.ipython.org/gist/jochym/d504ce067b99686e4ae8) - 
     shows how to set-up the remote execution of the Qeuantum Espresso over the
     network (e.g. in some supercomputing center).
