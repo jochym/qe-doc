@@ -99,6 +99,10 @@ which concerned with similar tasks.
     shows how to find minimum of energy of the system with more degrees of
     freedom (low symmetry structures etc.). The example of structure
     minimization for a simple structure is included in the first tutorial.
+* [Electronic structure](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - 
+    shows how to extract the basic properties of the electronic structure of the
+    crystal (band structure, band gap, electronic DOS) from the data produced by 
+    the calculation.
 * [Elastic constants](http://nbviewer.ipython.org/gist/jochym/5fb472070a272b61f75c) - 
     introduces the Elastic package and shows the calculation of elastic
     constants using this tool.
