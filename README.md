@@ -51,7 +51,7 @@ You can *view* the tutorials with just your browser (just click the links below)
 but to *work* on them (which is a whole point of having a tutorial!) you need 
 a working environment - so you need to build and configure one.
 
-The [Installation](http://nbviewer.ipython.org/gist/jochym/a7f552e8b1fced1bc996)
+The [Installation](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Installation.ipynb)
 document will help with this task. Do not be scared off by the multiple steps in
 the procedure. All should work quite smoothly, and at the end you will have an
 environment useful not only for viewing and experimenting with the tutorials but
@@ -83,34 +83,34 @@ Here is the list of tutorials. It will probably grow in time a little. If you
 wish to include your tutorial in the list we will be happy to add any material
 which concerned with similar tasks.
 
-* [Crystal structure](http://nbviewer.ipython.org/gist/jochym/603c0d13bc7d3dc8148d) -
+* [Crystal structure](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Crystal_structure.ipynb) -
     introduces the basic ideas of the system and presents a set of basic static
     calculations. This example uses a local installation of Quantum Espresso. 
     Without such installation you will not be able to execute this tutorial 
     However, you can still read it and lern from it. 
     The rest of the tutorials are configured for remote execution.
-* [Remote execution](http://nbviewer.ipython.org/gist/jochym/d504ce067b99686e4ae8) - 
+* [Remote execution](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Remote_calculation.ipynb) - 
     shows how to set-up the remote execution of the Qeuantum Espresso over the
     network (e.g. in some supercomputing center).
-* [Primitive unit cells](http://nbviewer.ipython.org/gist/jochym/d68d81026eed03467d69) - 
+* [Primitive unit cells](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Primitive_unit_cells.ipynb) - 
     demonstrates the concept of the primitive unit cell and shows a way the
     system deals with them.
-* [Structure optimization](http://nbviewer.ipython.org/gist/jochym/f7b46f20640f3e2e7634) - 
+* [Structure optimization](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Structural_optimization.ipynb) - 
     shows how to find minimum of energy of the system with more degrees of
     freedom (low symmetry structures etc.). The example of structure
     minimization for a simple structure is included in the first tutorial.
-* [Electronic structure](http://nbviewer.ipython.org/gist/jochym/99f18778525832746d48) - 
+* [Electronic structure](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Electronic_structure.ipynb) - 
     shows how to extract the basic properties of the electronic structure of the
     crystal (band structure, band gap, electronic DOS) from the data produced by 
     the calculation.
-* [Elastic constants](http://nbviewer.ipython.org/gist/jochym/5fb472070a272b61f75c) - 
+* [Elastic constants](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Elastic_constants.ipynb) - 
     introduces the Elastic package and shows the calculation of elastic
     constants using this tool.
-* [Lattice dynamics](http://nbviewer.ipython.org/gist/jochym/f3f37daa4cf1884f02ad) - 
+* [Lattice dynamics](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Lattice_dynamics.ipynb) - 
     shows the use of DFPT module in Quantum Espresso for calculation of
     vibration modes in the crystal as well as use of utility functions in the
     QE-util for easier analysis of the obtained data.
-* [Quasi-Harmonic Approximation](http://nbviewer.ipython.org/gist/jochym/334b658cc8b3f6864c23) - 
+* [Quasi-Harmonic Approximation](http://nbviewer.ipython.org/github/jochym/qe-doc/blob/master/Quasi-Harmonic_Approximation.ipynb) - 
     explains the procedure of calculating temperature-dependent behaviour in the
     framework of the QHA using the tools provided within the QE-util package.
 
