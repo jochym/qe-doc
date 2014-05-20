@@ -4,6 +4,7 @@
 *.pdf
 ThO2.*
 qeu
+.ipynb_checkpoints
 
 # C extensions
 *.so
