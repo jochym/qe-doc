@@ -1,4 +1,4 @@
-QE-doc
+QE-doc [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18761.svg)](http://dx.doi.org/10.5281/zenodo.18761)
 ======
 
 *This work was supported in part by a grant from the National Sciences and Engineering 
